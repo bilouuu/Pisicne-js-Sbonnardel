@@ -52,6 +52,7 @@ const userName = prompt ("what's your name?")
 console.log("Have a nice day " + userName + " .")
 
 ******ex8******
+
 console.log("Welcome to my secret diary !")
 
 const name=prompt("What's your name ?");
@@ -88,6 +89,33 @@ if (a % 3 == 0 && a % 5 == 0  ) {
 console.log("pas mutliple de 3 et 5")}
 }
 
+*****ex11*******
 
+function bissextile (year){
+if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+console.log("0")
+return 0
+} else {
+console.log("1")
+return 1}
+}
+
+bissextile (1700)
+
+module.exports = {
+bissextile
+}
+
+
+
+*****ex12********
+function toto (a,b) {
+  console.log(((a+b)*b)/2;
+  return((a+b)*b)/2
+}
+
+module.exports = {
+toto
+}
  
  
