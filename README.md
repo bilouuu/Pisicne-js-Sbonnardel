@@ -33,18 +33,19 @@ return a % b;
   }
   
   *****ex5*******
-  let i=0
-while (i<=100){
-  console.log (i)
-  i=i+2
+  
+for (let i = 0; i <=10; i++{
+console.log (i); 
 }
-******ex6*****
+
+*******ex6*******
 
 let i=0
 while (i<=100){
   console.log (i)
-  i=i+2
-}
+  i=i+2}
+
+
 
 *****ex7******
 
@@ -109,6 +110,7 @@ bissextile
 
 
 *****ex12********
+
 function toto (a,b) {
   console.log(((a+b)*b)/2;
   return((a+b)*b)/2
